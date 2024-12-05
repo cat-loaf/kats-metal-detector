@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "Kat's Metal Detector Resource Pack",
+  "texture_data": {
+    "kmd:iron_detector": {
+      "textures": "textures/items/iron_detector"
+    }
+  }
+}

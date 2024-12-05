@@ -1,0 +1,37 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "kmd:iron_detector",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "kmd:iron_detector",
+			"minecraft:display_name": {
+				"value": "Iron Ore Detector"
+			},
+			"minecraft:glint": true,
+			"minecraft:allow_off_hand": true,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:durability": {
+				"max_durability": 251
+			},
+			"minecraft:interact_button": true,
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:iron_ingot"
+						],
+						"repair_amount": 0.5
+					}
+				]
+			},
+			"minecraft:should_despawn": false,
+			"minecraft:use_animation": "brush"
+		}
+	}
+}

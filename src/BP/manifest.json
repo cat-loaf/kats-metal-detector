@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Kat"
+		],
+        "url": "https://https://cat-loaf.github.io/kats-metal-detector/"
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "08311dcc-2a78-4b79-83f5-018cd94dc1b5",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "14f4e5d9-1894-4079-936e-0ff58ecfbb82",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "43cfbf4a-d0f8-4a80-a54f-31d4079459d9",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		},
+		{
+			"uuid":"ab3c844d-aa6f-4ba5-a039-851c190c3d7f",
+			"version": [1, 0, 0]
+		}
+	]
+}
